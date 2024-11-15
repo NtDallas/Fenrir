@@ -14,7 +14,7 @@ For the gadget, you specify the module name, and the code searches for all `jmp 
 
 ```
 	spoof test({
-    { "kernel32.dll", "BaseThreadInitThunk", 0x14 },    // fake secind frame
+    { "kernel32.dll", "BaseThreadInitThunk", 0x14 },    // fake second frame
     { "ntdll.dll", "RtlUserThreadStart", 0x21 }         // fake third frame
     },
 	"ntdll.dll");                                       // module name for "jmp RDI" gadget
