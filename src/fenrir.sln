@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "fenrir", "fenrir.vcxproj", "{3707373C-7E94-4AE9-9A80-2E1AE50D3586}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Debug|x64.ActiveCfg = Debug|x64
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Debug|x64.Build.0 = Debug|x64
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Debug|x86.ActiveCfg = Debug|Win32
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Debug|x86.Build.0 = Debug|Win32
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Release|x64.ActiveCfg = Release|x64
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Release|x64.Build.0 = Release|x64
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Release|x86.ActiveCfg = Release|Win32
+		{3707373C-7E94-4AE9-9A80-2E1AE50D3586}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC0A254E-B2CA-4653-A70A-74275A30F556}
+	EndGlobalSection
+EndGlobal
