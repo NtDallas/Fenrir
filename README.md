@@ -1,6 +1,6 @@
 # Fenrir
 
-This is a C++ code designed to easily perform stack spoofing with a fake stack frame after the gadget. This project is based on `LoudSunRun`, but instead of using the `jmp RBX` gadget, it utilizes `jmp RDI`. With this approach, Elastic XDR does not detect the spoofing.
+This is a C++ code designed to easily perform stack spoofing with a fake stack frame after the gadget. This project is based on `LoudSunRun`, but instead of using the `jmp RBX` gadget, it utilizes `jmp RDI`. 
 
 Nowadays, some EDRs have stopped hooking Nt functions in ntdll.dll due to the ease of evading such hooks, as demonstrated by solutions like Elastic XDR.
 
@@ -34,11 +34,6 @@ For the gadget, you specify the module name, and the code searches for all `jmp 
 
 ![gadget view](img/pic_2.png)
 
-- Elastic XDR view with "jmp RDI"
-
-![elstic view](img/pic_3.png)
-
-
 # List of "jmp [RDI]" gadget inside module
 
 Check ed on Windows11 24h2 
@@ -57,5 +52,3 @@ Check ed on Windows11 24h2
 - https://github.com/susMdT/LoudSunRun
 
 - https://github.com/WithSecureLabs/CallStackSpoofer
-
-
